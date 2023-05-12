@@ -7,11 +7,9 @@ Creating a stationary mean free random process, where you can determine the samp
 Creating white noise with desired sampling distribution. Then fitting the desired psd to the noise.
 
 
-| Rank | Languages |
-|-----:|-----------|
-|     1| Javascript|
-|     2| Python    |
-|     3| SQL       |
+* [Technology name](https://example.com): Version 12.3 
+* [Technology name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
 
 ## Usage
 ```python
@@ -30,8 +28,7 @@ noise(n_samples, psd, distribution)
                   "binominial" distribution (x_1 = 1, x_2 = -1),<br />
                   "gauss" distribution, default "gauss" distribution  <br />
   **Retruns:** <br />
-  ---
-  >-noise samples
+ -noise samples
                   
 ## Example
 
