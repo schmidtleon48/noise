@@ -25,8 +25,10 @@ noise(n_samples, psd, distribution)
 * noise samples
                   
 ## Example
-Here are two example shown, where 1/f noise is generated.  <br />
-**1. Example:**  <br />
+Here are two example shown, where 1/f noise is generated.
+
+**1. Example:** 
+
 In the first example the 1/f noise is generated based on white gaussian noise (WGN). One realizaition of the noise is shown in the following graph. 
 
 ![gauss_1](images/gauss_1_f_real.png)
@@ -42,4 +44,5 @@ In the second example 1/f noise is generated based on a binominal distribution. 
 ![binominal_1](images/binominal_1_f_real.png)
 
 And finally both psd are compared.
+
 ![binominal_1](images/binominal_1_f.png)
