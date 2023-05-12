@@ -1,6 +1,6 @@
 '''
 Topic:          Noise samples
-Description:    Creating a stationary mean free process, where you can determine
+Description:    Creating a stationary mean free random process, where you can determine
                 the sampling distribution and power spectral density (psd)
 Function:       Creating white noise with sampling distribution, fitting the 
                 desired psd to the noise
