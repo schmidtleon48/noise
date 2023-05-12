@@ -14,7 +14,8 @@ noise(n_samples, psd, distribution)
   **Parameters:** <br />
   
 * n_samples:   number of sampels
-* psd:         psd of noise with maximal frequency the nyquist frequency, ```python freq = np.fft.fftfreq(n_samples, 1 /f_s) ```
+* psd:         psd of noise with maximal frequency the nyquist frequency
+*  ```python freq = np.fft.fftfreq(n_samples, 1 /f_s) ```
 
 ```
 
