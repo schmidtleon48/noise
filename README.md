@@ -16,7 +16,7 @@ noise(n_samples, psd, distribution)
 * n_samples:   number of sampels
 * psd:         psd of noise with maximal frequency the nyquist frequency 
 ---
-> sampled frequencies: ```freq = np.fft.fftfreq(n_samples, 1 /f_s)```
+> sampled frequencies: ```python freq = np.fft.fftfreq(n_samples, 1 /f_s)```
 * distribution: choose how to sample white noise
 
   
