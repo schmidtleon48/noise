@@ -16,21 +16,12 @@ noise(n_samples, psd, distribution)
 * n_samples:   number of sampels
 * psd:         psd of noise with maximal frequency the nyquist frequency
   ```python 
-  freq = np.fft.fftfreq(n_samples, 1 /f_s) 
+  freq_s = np.fft.fftfreq(n_samples, 1 /f_s) 
   ```
+* distribution: choose how to sample white noise ("uniform", "binominal", "gauss")
 
-
-* distribution: choose how to sample white noise
-
-  
-
-  ---  
-  >-psd: choose how to sample white noise <br />
-                  possible: "uniform" distribution (0 till 1), <br />
-                  "binominial" distribution (x_1 = 1, x_2 = -1),<br />
-                  "gauss" distribution, default "gauss" distribution  <br />
   **Retruns:** <br />
- -noise samples
+* noise samples
                   
 ## Example
 
