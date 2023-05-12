@@ -26,6 +26,10 @@ noise(n_samples, psd, distribution)
   **Retruns:**
   <br />
                   -noise samples
+-asdf
+-asf
+-sadf
+-asf
 
 ## Example
 
