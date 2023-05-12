@@ -6,11 +6,6 @@ Creating a stationary mean free random process, where you can determine the samp
 ## Function
 Creating white noise with desired sampling distribution. Then fitting the desired psd to the noise.
 
-
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-
 ## Usage
 ```python
 noise(n_samples, psd, distribution)
@@ -20,12 +15,12 @@ noise(n_samples, psd, distribution)
   
 * n_samples:   number of sampels
 * psd:         psd of noise with maximal frequency the nyquist frequency 
+---
+> sampled frequencies: ```freq = np.fft.fftfreq(n_samples, 1 /f_s)``
 * distribution: choose how to sample white noise
 
   
 
-  >-psd:          psd of noise with maximal frequency the nyquist frequency <br />
-                  sampled frequencies: freq = np.fft.fftfreq(n_samples, 1 /f_s) f_s -> samling frequency <br />
   ---  
   >-psd: choose how to sample white noise <br />
                   possible: "uniform" distribution (0 till 1), <br />
