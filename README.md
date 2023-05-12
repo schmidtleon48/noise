@@ -27,9 +27,9 @@ noise(n_samples, psd, distribution)
   <br />
                   -noise samples
                   
-+asdf
+-asdf
 +asf
-+sadf
+*sadf
 +asf
 
 ## Example
