@@ -20,7 +20,8 @@ noise(n_samples, psd, distribution)
   ```
 * distribution: choose how to sample white noise ("uniform", "binominal", "gauss")
 
-  **Retruns:** <br />
+
+**Retruns:** <br />
 * noise samples
                   
 ## Example
