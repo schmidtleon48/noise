@@ -6,14 +6,18 @@ Creating a stationary mean free random process, where you can determine the samp
 ## Function
 Creating white noise with desired sampling distribution. Then fitting the desired psd to the noise.
 
+
+|     1| Javascript|
+|     2| Python    |
+|     3| SQL       |
+
 ## Usage
 ```python
 noise(n_samples, psd, distribution)
 ```
 
   **Parameters:** <br />
-  ---
-  >-n_samples:    number of sampels  <br />
+-n_samples:    number of sampels  <br />
   
   ---
   >-psd:          psd of noise with maximal frequency the nyquist frequency <br />
