@@ -7,6 +7,8 @@ Creating a stationary mean free random process, where you can determine the samp
 Creating white noise with desired sampling distribution. Then fitting the desired psd to the noise.
 
 
+| Rank | Languages |
+|-----:|-----------|
 |     1| Javascript|
 |     2| Python    |
 |     3| SQL       |
