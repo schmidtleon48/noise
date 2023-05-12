@@ -11,27 +11,22 @@ Creating white noise with desired sampling distribution. Then fitting the desire
 noise(n_samples, psd, distribution)
 ```
 
-  **Parameters:**
-  <br />
-    -n_samples:    number of sampels 
-    <br />
-    -psd:          psd of noise with maximal frequency the nyquist frequency <br />
-                  sampled frequencies: freq = np.fft.fftfreq(n_samples, 1 /f_s) f_s -> samling frequency
-     <br />
-    -distribution: choose how to sample white noise <br />
+  **Parameters:** <br />
+  ---
+  >-n_samples:    number of sampels  <br />
+  
+  ---
+  >-psd:          psd of noise with maximal frequency the nyquist frequency <br />
+                  sampled frequencies: freq = np.fft.fftfreq(n_samples, 1 /f_s) f_s -> samling frequency <br />
+  ---  
+  >-distribution: choose how to sample white noise <br />
                   possible: "uniform" distribution (0 till 1), <br />
                   "binominial" distribution (x_1 = 1, x_2 = -1),<br />
-                  "gauss" distribution, default "gauss" distribution   
-                  <br />
-  **Retruns:**
-  <br />
-                  -noise samples
+                  "gauss" distribution, default "gauss" distribution  <br />
+  **Retruns:** <br />
+  ---
+  >-noise samples
                   
--asdf
-+asf
-*sadf
-+asf
-
 ## Example
 
 
