@@ -1,13 +1,13 @@
 # Noise generator
 
 ## Description
-Creating a stationary mean free process, where you can determine the sampling distribution and power spectral density (psd).
+Creating a stationary mean free random process, where you can determine the sampling distribution and power spectral density (psd).
 
 ## Function
 Creating white noise with desired sampling distribution. Then fitting the desired psd to the noise.
 
 ## Usage
-'''
+'''python
 noise(n_samples, psd, distribution)
 '''
   **Parameters:**
