@@ -40,5 +40,5 @@ In the second example 1/f noise is generated based on a binominal distribution. 
 
 ![binominal_1](images/binominal_1_f_real.png)
 
-
+And finally both psd are compared.
 ![binominal_1](images/binominal_1_f.png)
