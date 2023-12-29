@@ -25,7 +25,7 @@ noise(n_samples, psd, distribution)
 * noise samples
                   
 ## Example
-Here are two example shown, where 1/f noise is generated.
+Here are two examples shown, where 1/f noise is generated.
 
 **1. Example:** 
 
